@@ -1,0 +1,147 @@
+:root {
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
+
+  --color-white: #fff;
+  --color-unaccent: #808080;
+
+
+  --border-radius: 3px;
+  --linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+	--box-shadow: 
+		0 16px 24px 2px rgba(33,37,41,.02), 
+		0 6px 30px 5px rgba(33,37,41,.04), 
+		0 8px 10px -5px rgba(33,37,41,.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  max-width: 1284px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav {
+  background-color: #C4C4C4;
+}
+
+.head_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo_img {
+  max-width: 200px;
+}
+
+.nav_item {
+  margin-left: 25px;
+  display: inline;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.nav_item:hover {
+  color: #6A1E1E;
+}
+
+.nav_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_phone {
+  margin-left: 100px;
+  max-width: 30px;
+}
+
+.nav_number {
+  color: #000000;
+}
+
+.head_info {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head_text {
+  max-width: 50%;
+}
+
+.mountain {
+  padding-right: 10%;
+}
+
+/*catalog*/
+.catalog {
+  margin-top: 70px;
+  background: #EDF1F5;
+}
+
+.centr_text {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.catalog_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rubble_item {
+  max-width: 350px;
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #C4C4C4;
+}
+
+.rubble_text {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
